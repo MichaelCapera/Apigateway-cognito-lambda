@@ -27,4 +27,11 @@ terraform plan
 
 terraform apply
 
+# Plan with vars
+
+terraform plan -var-file dev.tfvars
+
+# Apply with vars
+
+terraform apply -var-file dev.tfvars -auto-approve
 

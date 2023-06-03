@@ -34,3 +34,7 @@ override.tf.json
 .terraform.lock.hcl
 
 dta.txt
+
+# Dev variables
+
+dev.tfvars
